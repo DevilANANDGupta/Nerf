@@ -112,13 +112,4 @@ In `run_nerf.py` and all other code, we use the same pose coordinate system as i
 
 Poses are stored as 3x4 numpy arrays that represent camera-to-world transformation matrices. The other data you will need is simple pinhole camera intrinsics (`hwf = [height, width, focal length]`) and near/far scene bounds. Take a look at [our data loading code](https://github.com/bmild/nerf/blob/master/run_nerf.py#L406) to see more.
 
-## Citation
 
-```
-@inproceedings{mildenhall2020nerf,
-  title={NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis},
-  author={Ben Mildenhall and Pratul P. Srinivasan and Matthew Tancik and Jonathan T. Barron and Ravi Ramamoorthi and Ren Ng},
-  year={2020},
-  booktitle={ECCV},
-}
-```
